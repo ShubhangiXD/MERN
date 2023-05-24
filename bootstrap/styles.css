@@ -10,6 +10,7 @@
 .navbar-nav a.nav-link.active {
     color: white;
     background-color: rgba(247, 156, 255, 0.279);
+    max-width: max-content;
     border-radius: 2rem;
 }
 

@@ -32,7 +32,30 @@
     border: 1px solid rgb(0, 0, 0);
 }
 
-.upper-row .row{
+.upper-row .row {
     border: 1px solid black;
     padding: 1rem;
+}
+
+.subheading {
+    text-align: center;
+}
+
+.dropdown .btn {
+    background-color: rgba(247, 156, 255, 0.279);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    border-radius: 2rem;
+    text-align: center;
+    max-width: max-content;
+}
+
+.dropdown .dropdown-menu {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+.dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: rgba(247, 156, 255, 0.279);
 }

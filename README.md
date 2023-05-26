@@ -6,3 +6,8 @@ Relearning basic HTML and going over the Bootstrap documentation, trying out my 
 <img width="259" alt="image" src="https://github.com/ShubhangiXD/MERN/assets/92100787/834c221b-9169-41be-9aaf-210ac42f289f">
 
 ### Day 4: Basics of JS and polishing the Navbar
+Added a dropdown menu that links to practice sheets of every day individually.<br><br>
+<img width="137" alt="image" src="https://github.com/ShubhangiXD/MERN/assets/92100787/9ea28b2d-2830-45cd-8643-d23d4ed33e12">
+<img width="168" alt="image" src="https://github.com/ShubhangiXD/MERN/assets/92100787/708156cb-bfab-4796-94d2-b231f0ee1920">
+<img width="178" alt="image" src="https://github.com/ShubhangiXD/MERN/assets/92100787/9074a25f-259f-4e55-affb-0e04b5bb822e">
+

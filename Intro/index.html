@@ -9,6 +9,7 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <title>Practice</title>
     <link rel="stylesheet" href="/bootstrap/styles.css">
+    <link rel="stylesheet" href="/assets/stylesnav.css">
 </head>
 
 <body>
@@ -27,19 +28,23 @@
                     <a class="nav-link disabled" href="#">disabled</a>
                 </div>
             </div>
+
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Daywise Contents
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/Intro/d1.html">Day-1: 22/05/23</a></li>
+                    <li><a class="dropdown-item" href="/Intro/d2.html">Day-2: 23/05/23</a></li>
+                    <li><a class="dropdown-item" href="#">Day-3: 24/05/23</a></li>
+                    <li><a class="dropdown-item" href="/javascript/basics.html">Day-4: 26/05/23</a></li>
+                </ul>
+            </div>
+            <!--dropdown menu end-->
         </div>
     </nav>
 
-    <!--paragraph thats responsive-->
     <br>
-    <div class="container bg-info-subtle text-bg-light">
-        <p>
-            Place Holder: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi placeat quos, eum ea illum
-            voluptatum necessitatibus nisi delectus sit nemo esse autem exercitationem repudiandae fuga cumque est
-            officia
-            fugiat. Deleniti.
-        </p>
-    </div>
 
     <div class="container-fluid text-center bg-dark-subtle">
         <h3>this is how rows work</h3>
@@ -72,6 +77,26 @@
         </div>
     </section>
     <!--row end-->
+
+    <div class="container-fluid text-center bg-dark-subtle">
+        <h3>responsive text boxes</h3>
+    </div>
+
+    <!--Random Text with responsive behaviour?-->
+    <section class="container bg-body-secondary">
+        <h3>This is responsive: </h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi hic nesciunt dignissimos rem nemo voluptatum
+            fuga accusamus dicta architecto fugit?</p>
+    </section>
+
+    <div class="container bg-info-subtle text-bg-light">
+        <p>
+            Place Holder: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi placeat quos, eum ea illum
+            voluptatum necessitatibus nisi delectus sit nemo esse autem exercitationem repudiandae fuga cumque est
+            officia
+            fugiat. Deleniti.
+        </p>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">

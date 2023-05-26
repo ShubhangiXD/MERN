@@ -27,15 +27,6 @@
     color: rgb(191, 166, 193);
 }
 
-.introduction .container-fluid .heading {
-    text-align: center;
-}
-
-.introduction .custom-bg {
-    background-color: rgb(227, 196, 255);
-    padding: 2%;
-}
-
 .dropdown .btn {
     background-color: rgba(247, 156, 255, 0.279);
     color: white;

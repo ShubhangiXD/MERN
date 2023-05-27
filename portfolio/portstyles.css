@@ -1,10 +1,10 @@
 * {
-    background-color: black;
+    background-color: rgb(16, 16, 16);
 }
 
 .dropdown .btn {
     background-color: rgba(247, 156, 255, 0.279);
-    color: white;
+    color: rgb(223, 223, 223);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: small;
     border-radius: 2rem;
@@ -15,6 +15,7 @@
 .dropdown .dropdown-menu {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: small;
+    background-color: rgb(223, 223, 223);
 
 }
 
@@ -24,5 +25,5 @@
 }
 
 .dropdown .dropdown-menu .dropdown-item {
-    background-color: white;
+    background-color: rgb(223, 223, 223);
 }

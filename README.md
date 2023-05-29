@@ -11,3 +11,6 @@ Added a dropdown menu that links to practice sheets of every day individually.<b
 <img width="168" alt="image" src="https://github.com/ShubhangiXD/MERN/assets/92100787/708156cb-bfab-4796-94d2-b231f0ee1920">
 <img width="178" alt="image" src="https://github.com/ShubhangiXD/MERN/assets/92100787/9074a25f-259f-4e55-affb-0e04b5bb822e">
 
+### Day 5-6: Learning JavaScript
+Learning in-built functions and various array and string modification techniques.
+

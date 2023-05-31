@@ -5,4 +5,5 @@ arr.forEach(ele => {
     if (ele > 40)
         newarr.push(ele)
 })
+console.log(arr)
 console.log(newarr)

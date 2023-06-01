@@ -196,16 +196,16 @@ const newcall = {
     "time": date.getHours() + ":" + date.getMinutes()
 }
 
-/* const newcall2 = {
+const newcall2 = {
     "name": "Fawnia Van Oord",
     "phone": "932-975-6357",
     "callno": 2,
     "date": "11/7/2022",
     "time": "12:06 AM"
-} */
+}
 
 let newname = newcall.name
-//let newname2 = newcall2.name
+let newname2 = newcall2.name
 
 let flag = 0;
 let existing = [];
@@ -213,7 +213,8 @@ retrive = (newnames) => {
     for (const nameinarr of namearr) {
         if (nameinarr == newnames) {
             flag++;
-            //existing = calllog.filter(obj => obj.name === newnames)
+            existing = calllog.find(calllog => calllog.name === newnames)
+            break;
         }
     }
     console.log(existing)
@@ -224,4 +225,4 @@ retrive = (newnames) => {
 }
 
 retrive(newname)
-//retrive(newname2)
+retrive(newname2)
